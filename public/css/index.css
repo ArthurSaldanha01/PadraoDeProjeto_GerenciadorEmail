@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #e0e0e0;
+}
+
+.barra-lateral {
+    width: 250px;
+    background-color: #ffffff;
+    height: 100vh;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.barra-lateral ul {
+    list-style-type: none;
+    padding: 0;
+    flex-grow: 1;
+}
+
+.barra-lateral ul li {
+    margin: 15px 0;
+}
+
+.barra-lateral ul li a {
+    text-decoration: none;
+    color: #202124;
+    font-size: 16px;
+}
+
+.barra-lateral ul li a:hover {
+    color: #1a73e8;
+}
+
+.botao-escrever {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.botao-escrever button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.botao-escrever button:hover {
+    background-color: #1669c1;
+}
+
+.conteudo {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+.barra-superior {
+    background-color: #f1f3f4;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.barra-superior input[type="text"] {
+    width: 50%;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.lista-emails {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.item-email {
+    padding: 15px;
+    border-bottom: 1px solid #f1f3f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-email:last-child {
+    border-bottom: none;
+}
+
+.item-email:hover {
+    background-color: #f9f9f9;
+}
+
+.item-email .remetente {
+    font-weight: bold;
+    color: #202124;
+}
+
+.item-email .assunto {
+    color: #5f6368;
+}
+
+.item-email .data {
+    color: #5f6368;
+}
+
+/* Estilo para os links dos e-mails */
+a.link-email {
+    text-decoration: none;
+}
+
+a.link-email:hover {
+    background-color: #f1f3f4;
+}

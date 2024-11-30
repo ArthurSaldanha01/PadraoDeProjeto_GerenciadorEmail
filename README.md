@@ -1,3 +1,2 @@
-# Padrões de Projeto Gerenciador de Email
-
-Projeto final da matéria de Laboratório Web 2
+# gerenciador_email
+ Um sistema de gerencia de email
