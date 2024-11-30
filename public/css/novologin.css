@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container_acesso {
+    display: flex;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.caixa1 {
+    width: 50%;
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 40px;
+    border-radius: 12px 0 0 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.caixa1 h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.caixa1 p {
+    font-size: 18px;
+}
+
+.caixa2 {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.caixa2 label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.caixa2 input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+.caixa2 input:focus {
+    border-color: #1a73e8;
+}
+
+.botao_login {
+    width: 100%;
+    padding: 12px;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao_login:hover {
+    background-color: #165bbd;
+}
+
+.cadastro {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.cadastro a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cadastro a:hover {
+    text-decoration: underline;
+}
