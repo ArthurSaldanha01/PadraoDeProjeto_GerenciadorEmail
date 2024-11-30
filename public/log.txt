@@ -1,9 +1,0 @@
-Evento: {"evento":"adicionar_email","remetente":"tiago@gmail.com","destinatario":"arthursaldanha17@gmail.com"}
-[2024-11-29 23:47:36] Evento: Editar Email - Email ID: 70, Remetente: tiago@gmail.com, Destinatário: arthursaldanha17@gmail.com
-[2024-11-29 23:48:05] Evento: Deletar Email - Email ID: 70
-[2024-11-29 23:48:35] Evento: Adicionar Email - Remetente: tiago@gmail.com, Destinatário: arthursaldanha17@gmail.com
-[2024-11-29 23:49:00] Evento: Editar Email - Email ID: 71, Remetente: tiago@gmail.com, Destinatário: arthursaldanha17@gmail.com
-[2024-11-30 00:00:42] Evento: Adicionar Email - Remetente: joao@gmail.com, Destinatário: arthursaldanha17@gmail.com
-[2024-11-30 00:02:18] Evento: Editar Email - Email ID: 72, Remetente: joao@gmail.com, Destinatário: arthursaldanha17@gmail.com
-[2024-11-30 03:05:34] Evento: Adicionar Email - Remetente: joao@gmail.com, Destinatário: arthursaldanha17@gmail.com
-[2024-11-30 03:05:41] Evento: Editar Email - Email ID: 73, Remetente: joao@gmail.com, Destinatário: arthursaldanha17@gmail.com
